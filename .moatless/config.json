@@ -1,0 +1,17 @@
+{
+  "codeExecution": {
+    "setupCommands": ["bun install"]
+  },
+  "servers": [
+    {
+      "name": "dev",
+      "label": "Dev Server",
+      "port": 3000,
+      "startCommands": ["bun run dev"],
+      "startupTimeoutSeconds": 30,
+      "autoReload": true,
+      "enableInspector": true,
+      "default": true
+    }
+  ]
+}
